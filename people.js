@@ -6,10 +6,10 @@ const  hobbies  = require ("./hobbies.js");
 
 function namesHobbies() {
    return {
-        completeName: completeName("Marco", "Vacchi"),
-        hobbies: hobbies("giocare", "uscire", "sport")
+         fullName: completeName("Marco", "Vacchi"),
+         hobbies: hobbies("giocare", "uscire", "sport")
    }
-}
+};
 
 
 const result = namesHobbies(); 
